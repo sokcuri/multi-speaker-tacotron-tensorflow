@@ -62,7 +62,7 @@ D.Voice는 TensorFlow로 구현된 오픈소스 딥러닝 음성 합성 엔진�
 
 `datasets`와 `아무개/alignment.json`가 준비되면, 아래 명령어로 학습 데이터를 만드시면 됩니다:
 
-    python3 -m datasets.synthesizer_data ./datasets/아무개/alignment.json
+    python3 -m datasets.generate_data ./datasets/아무개/alignment.json
 
 
 ### 2-2. {손석희, 문재인, 박근혜} 데이터 만들기
