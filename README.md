@@ -177,7 +177,7 @@ This is not an official [DEVSISTERS](http://devsisters.com/) product. This proje
 ## References
 
 - [Keith Ito](https://github.com/keithito)'s [tacotron](https://github.com/keithito/tacotron)
-- [DEVIEW 2017 presentation](https://deview.kr/2017/schedule/182) (Korean)
+- [DEVIEW 2017 presentation](https://www.slideshare.net/carpedm20/deview-2017-80824162) (Korean)
 
 
 ## Author
