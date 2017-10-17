@@ -148,6 +148,12 @@ D.Voice는 TensorFlow로 구현된 오픈소스 딥러닝 음성 합성 엔진�
 
     python3 train.py --data_path=datasets/son --load_path logs/son-20171015
 
+`logs` 디렉토리 안에서 train/test 데이터의 음성과 어텐션을 볼 수 있습니다.
+
+학습 상태(예를 들어 train/test loss)를 보시려면:
+
+    tensorboard --logdir=logs --host=0.0.0.0 --port=6006
+
 학습 데이터가 좋지 않다면 `--initialize_path`로 이미 학습된 모델의 파라미터로 초기화 해서 학습하시는 것이 좋습니다.
 
 

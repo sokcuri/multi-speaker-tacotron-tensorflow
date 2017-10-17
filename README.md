@@ -149,6 +149,12 @@ To restart a training from previous experiments such as `logs/son-20171015`:
 
     python3 train.py --data_path=datasets/son --load_path logs/son-20171015
 
+You will see synthesized train/test audio and its attention in `logs` directory.
+
+To see training (e.g. train/test loss) status:
+
+    tensorboard --logdir=logs --host=0.0.0.0 --port=6006
+
 If you don't have good and enough (10+ hours) dataset, it would be better to use `--initialize_path` to use a well-trained model as initial parameters.
 
 
